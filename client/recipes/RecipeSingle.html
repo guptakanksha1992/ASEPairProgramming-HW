@@ -1,5 +1,11 @@
 <template name="RecipeSingle">
-    <h1 align="center">{{recipe.name}}</h1>
-    <p>&nbsp;</p>
+    <h1 align="center"><u>{{recipe.name}}</u></h1>
     <h3 align="center">{{recipe.desc}}</h3>
+    <p>&nbsp;</p>
+    <h4>
+    {{#each recipe.bullet}}
+        <span class="bullet">{{date}} - {{note}}</span>
+        <p>&nbsp;</p>
+    {{/each}}
+    </h4>
 </template>

@@ -9,11 +9,11 @@ Recipes.allow({
     }
 });
 
-Ingredient = new SimpleSchema({
-   name: {
+bullet = new SimpleSchema({
+   date: {
        type: String
    },
-    amount: {
+    note: {
        type: String
    }
 });
@@ -30,8 +30,8 @@ RecipeSchema=new SimpleSchema({
         label: "Description"
 
     },
-    ingredients: {
-        type: [Ingredient]
+    bullet: {
+        type: [bullet]
     },
     inMenu: {
       type: Boolean,

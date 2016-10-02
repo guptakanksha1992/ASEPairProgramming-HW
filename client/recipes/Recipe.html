@@ -4,17 +4,17 @@
 
     <p>{{desc}}</p>
         <p>
-            {{#each ingredients}}
-                <span class="ingredient">{{name}} - {{amount}}</span>
+            {{#each bullet}}
+                <span class="bullet">{{date}} - {{note}}</span>
                 <p>&nbsp;</p>
             {{/each}}
         </p>
         <a href="/recipe/{{_id}}">View details</a>
         <i class="fa fa-trash"></i>
         {{#if inMenu}}
-            <button class="btn-deny toggle-menu">Remove from Menu</button>
+            <button class="btn-deny toggle-menu">Remove from Review List</button>
         {{else}}
-            <button class="btn-primary toggle-menu">Add to Menu</button>
+            <button class="btn-primary toggle-menu">Add to Review List</button>
         {{/if}}
     </article>
 </template>
