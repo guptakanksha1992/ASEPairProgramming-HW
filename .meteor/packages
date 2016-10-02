@@ -30,3 +30,4 @@ twbs:bootstrap
 fortawesome:fontawesome
 gwendall:auth-client-callbacks
 mquandalle:stylus
+jshint

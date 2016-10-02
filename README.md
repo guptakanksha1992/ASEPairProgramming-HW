@@ -3,6 +3,7 @@
 # Static Analysis Results (jslint)
 
 dyn-160-39-205-47:ASEPairProg akankshagupta$ meteor lint
+
 While linting files with jshint for the app (Server):
 lib/route.js:19:5: 'concise methods' is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
 lib/route.js:29:9: 'concise methods' is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
