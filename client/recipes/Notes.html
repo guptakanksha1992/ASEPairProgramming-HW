@@ -1,11 +1,11 @@
-<template name="Recipes">
+<template name="Notes">
     <h2 align="center">Add your new notebook here: </h2>
     <p>&nbsp;</p>
-    {{> NewRecipe}}
-    <section class="recipes">
+    {{> NewNote}}
+    <section class="notes">
         {{#if Template.subscriptionsReady}}
-            {{#each recipes}}
-                {{> Recipe}}
+            {{#each notes}}
+                {{> Note}}
             {{/each}}
         {{else}}
             <p>Loading</p>

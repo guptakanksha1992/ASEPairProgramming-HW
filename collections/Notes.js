@@ -1,6 +1,6 @@
-Recipes=new Meteor.Collection('recipes');
+Notes=new Meteor.Collection('notes');
 
-Recipes.allow({
+Notes.allow({
     insert: function (userId, doc) {
         return !!userId;
     },
@@ -13,12 +13,12 @@ bullet = new SimpleSchema({
    date: {
        type: String
    },
-    note: {
+    point: {
        type: String
    }
 });
 
-RecipeSchema=new SimpleSchema({
+NotesSchema=new SimpleSchema({
 
     name: {
         type: String,
@@ -70,15 +70,15 @@ RecipeSchema=new SimpleSchema({
 
 Meteor.methods({
    toggleMenuItem: function(id, currentState) {
-       Recipes.update(id, {
+       Notes.update(id, {
            $set: {
                inMenu: !currentState
            }
        });
    },
-   deleteRecipe: function (id) {
-       Recipes.remove(id);
+   deleteNote: function (id) {
+       Notes.remove(id);
    }
 });
 
-Recipes.attachSchema(RecipeSchema);
+Notes.attachSchema(NotesSchema);

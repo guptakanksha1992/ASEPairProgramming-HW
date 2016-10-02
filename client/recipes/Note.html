@@ -1,5 +1,5 @@
-<template name="Recipe">
-    <article class="recipe {{#if inMenu}}in-menu{{/if}}">
+<template name="Note">
+    <article class="note {{#if inMenu}}in-menu{{/if}}">
     <h3>{{name}}</h3>
 
     <p>{{desc}}</p>
@@ -9,7 +9,7 @@
                 <p>&nbsp;</p>
             {{/each}}
         </p>
-        <a href="/recipe/{{_id}}">View details</a>
+        <a href="/note/{{_id}}">View details</a>
         <i class="fa fa-trash"></i>
         {{#if inMenu}}
             <button class="btn-deny toggle-menu">Remove from Review List</button>

@@ -1,14 +1,14 @@
 Template.Menu.onCreated(function () {
     var self = this;
     self.autorun(function () {
-        self.subscribe('recipes');
+        self.subscribe('notes');
     });
 });
 
 Template.Menu.helpers({
 
-    recipes: ()=>{
-        return Recipes.find({inMenu: true});
+    notes: ()=>{
+        return Notes.find({inMenu: true});
     }
 
 });

@@ -1,9 +1,9 @@
 <template name="Menu">
     <h1 class="page-title">Notes for Review</h1>
-    {{#each recipes}}
+    {{#each notes}}
         {{> MenuItem}}
     {{else}}
-        <h3 align="center">Please add <a href="/recipe-book">notes</a> to your review list</h3>
+        <h3 align="center">Please add <a href="/note-book">notes</a> to your review list</h3>
     {{/each}}
 </template>
 
@@ -11,6 +11,6 @@
     <div class="menu-item">
         <h3>{{name}}</h3>
         <p>{{desc}}</p>
-        <a href="/recipe/{{_id}}">View details</a>
+        <a href="/note/{{_id}}">View details</a>
     </div>
 </template>

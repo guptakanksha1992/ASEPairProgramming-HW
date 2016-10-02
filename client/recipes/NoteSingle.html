@@ -1,0 +1,11 @@
+<template name="NoteSingle">
+    <h1 align="center"><u>{{note.name}}</u></h1>
+    <h3 align="center">{{note.desc}}</h3>
+    <p>&nbsp;</p>
+    <h4>
+    {{#each note.bullet}}
+        <span class="bullet">{{date}} - {{point}}</span>
+        <p>&nbsp;</p>
+    {{/each}}
+    </h4>
+</template>
