@@ -3,7 +3,7 @@
     {{#each recipes}}
         {{> MenuItem}}
     {{else}}
-        <h3>Please add some <a href="/recipe-book">recipes</a> to your menu</h3>
+        <h3 align="center">Please add some <a href="/recipe-book">recipes</a> to your menu</h3>
     {{/each}}
 </template>
 
@@ -11,5 +11,6 @@
     <div class="menu-item">
         <h3>{{name}}</h3>
         <p>{{desc}}</p>
+        <a href="/recipe/{{_id}}">View details</a>
     </div>
 </template>

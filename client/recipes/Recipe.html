@@ -5,7 +5,8 @@
     <p>{{desc}}</p>
         <p>
             {{#each ingredients}}
-                <span class="ingredient"> {{name}} - {{amount}}</span>
+                <span class="ingredient">{{name}} - {{amount}}</span>
+                <p>&nbsp;</p>
             {{/each}}
         </p>
         <a href="/recipe/{{_id}}">View details</a>

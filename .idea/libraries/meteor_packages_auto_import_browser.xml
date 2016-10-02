@@ -222,6 +222,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.7.6/web.browser/install-packages.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.9/web.browser/preamble.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.7.6/web.browser/process.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/mquandalle_stylus/1.1.1/web.browser/packages/mquandalle_stylus.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.9/web.browser/domrange.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.7.6/web.browser/stubs.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.7.6/web.browser/client.js" />
@@ -594,6 +595,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.7.6/web.browser/install-packages.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.9/web.browser/preamble.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.7.6/web.browser/process.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/mquandalle_stylus/1.1.1/web.browser/packages/mquandalle_stylus.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.9/web.browser/domrange.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.7.6/web.browser/stubs.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.7.6/web.browser/client.js" />
