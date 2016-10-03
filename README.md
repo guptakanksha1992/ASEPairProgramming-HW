@@ -22,7 +22,7 @@ collections/Notes.js:73:8: 'Notes' is not defined.
 collections/Notes.js:80:8: 'Notes' is not defined.
 collections/Notes.js:84:1: 'Notes' is not defined.
 collections/Notes.js:84:20: 'NotesSchema' is not defined.
-collections/Notes.js:4:31: 'doc' is defined but never used.
+collections/Notes.js:4:31: 'doc' is defined but never used.meteor test --full-app --driver-package=practicalmeteor:mocha
 collections/Notes.js:7:31: 'doc' is defined but never used.
 server/publish.js:6:11: 'Notes' is not defined.
 server/main.js:1:1: 'import' is only available in ES6 (use esnext option).

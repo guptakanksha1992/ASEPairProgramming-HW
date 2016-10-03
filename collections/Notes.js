@@ -1,4 +1,4 @@
-Notes=new Meteor.Collection('notes');
+Notes = new Meteor.Collection('notes');
 
 Notes.allow({
     insert: function (userId, doc) {
@@ -77,6 +77,7 @@ Meteor.methods({
        });
    },
    deleteNote: function (id) {
+       console.log(id);
        Notes.remove(id);
    }
 });

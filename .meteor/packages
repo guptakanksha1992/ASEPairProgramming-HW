@@ -31,3 +31,5 @@ fortawesome:fontawesome
 gwendall:auth-client-callbacks
 mquandalle:stylus
 jshint
+practicalmeteor:mocha
+clinical:nightwatch
